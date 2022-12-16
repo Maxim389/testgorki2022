@@ -1,0 +1,172 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+
+.container
+{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header
+{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 2px 20px 4px rgb(128, 127, 127);
+}
+
+.flex{
+    display: flex;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.aic{
+    align-items: center;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: white;
+    box-shadow: 9px 11px 16px 3px rgb(128 127 127);
+    margin: 100px auto;
+    padding: 10px;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #e2e2e2;
+    transition: .5s ease-in-out;
+}
+
+.header-btn:hover{
+    background-color: #bbb8b8;
+}
+
+.header-btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.dropbtn {
+    border: none;
+    background: none;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 190px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #d8d8d8;
+	font-size: 14px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.table tbody td {
+	text-align: left;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.table thead tr th:first-child, .table tbody tr td:first-child {
+	border-left: none;
+}
+.table thead tr th:last-child, .table tbody tr td:last-child {
+	border-right: none;
+}
+.table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #e2e2e2;
+    transition: .5s ease-in-out;
+}
+
+.search-btn:hover{
+    background-color: #bbb8b8;
+}
+
+.search-btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
